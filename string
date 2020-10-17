@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Strings {
+	
+	public static void main(String s[]) {
+		
+		Scanner scan =new Scanner(System.in);
+		String str;
+		str = scan.next();
+		System.out.println("Character position on 3rd \n"+ str.charAt(3));
+		System.out.println("Length of given String \n"+str.length());
+		System.out.println("Replaces values \n"+str.replace('a', 'A'));
+		System.out.println("All Letters present in upper Case \n"+ str.toUpperCase());
+		System.out.println("All letters in lower case \n"+str.toLowerCase());
+		scan.close();
+	}
+
+}
